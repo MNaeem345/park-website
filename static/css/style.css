@@ -1,0 +1,40 @@
+body, html{
+    background: url(/static/images/mohit-singh-2Zyydg0lDhs-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding-top: 0;
+   
+    
+}
+
+
+.bg-light{
+    background-color: transparent !important;
+}
+
+.button{
+    
+    padding-top: 50px;
+    padding-left: 500px;
+    
+
+}
+.btn-info{
+    background-color: transparent !important;
+    border-color: transparent !important;
+}
+
+.map{
+    padding-left: 250px;
+    padding-top: 50px;
+}
+
+.about{
+    width: 500px;
+    padding-top: 300px;
+    scroll-behavior: smooth;
+    justify-content: center;
+    padding-left: 800px;
+    
+}
+
