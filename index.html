@@ -11,18 +11,20 @@
     <link rel="stylesheet" href="/static/css/style.css">
   </head>
   <body>
-      <div class="container">
-        <div class="top" id="hero">
+        <div class="container-fluid" id="hero">
         <nav class="navbar navbar-expand-lg navbar-light bg-transparent fixed-top" style="font-size:25px">
-          <a class="navbar-brand" href="index.html" style="font-size: 45px;font-weight: lighter;padding-left: 200px;">Central Park</a>
+          <a class="navbar-brand" href="index.html" style="font-size: 45px;font-weight: lighter;">Central Park</a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
         
-          <div class="collapse navbar-collapse " id="navbarSupportedContent" style="padding-left:1450px">
-            <ul class="navbar-nav mr-auto">
+          <div class="collapse navbar-collapse " id="navbarSupportedContent" style="justify-content: right;">
+            <ul class="navbar-nav">
               <li class="nav-item active">
                 <a class="nav-link" href="#top">Home <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#gallery">Gallery</a>
@@ -46,63 +48,21 @@
             
           </div>
         </nav>
-          <div class="about">
-            <a role="button" class="btn-xl btn-info btn-rounded shadow p-3" href="#about" style="padding: 10000px;border-radius: 5%;font-size: 60px;font-weight: lighter;text-decoration: none;">About</a>
-          </div>
-              <div class="button">
-                <a role="button"  class="btn-xl btn-info btn-rounded shadow p-3" href="#gallery" style="width:700px; height:160px;border-radius: 5%;font-size: 60px;font-weight: lighter;text-decoration: none;">Gallery</a>
-              </div>
-                <div class="map">
+          <div class="container" style="max-width:min-content"> 
+                <div class="about text-right" >
+                  <a role="button" class="btn-xl btn-info btn-rounded shadow p-3" href="#about" style="border-radius: 5%;font-size: 60px;font-weight: lighter;text-decoration: none;margin-right: 0%;">About</a>
+                </div>
+                <div class="button text-center">
+                  <a role="button"  class="btn-xl btn-info btn-rounded shadow p-3" href="#gallery" style="width:700px; height:160px;border-radius: 5%;font-size: 60px;font-weight: lighter;text-decoration: none;">Gallery</a>
+                </div>
+                <div class="map ">
                   <a role="button"  class="btn-xl btn-info btn-rounded shadow p-3" href="#map" style="width:600px; height:150px;border-radius: 5%;font-size: 60px;font-weight: lighter;text-decoration: none;">Map</a>
                 </div>
-              </br>
-            </br>
-            </br>
-            </br>
-            </br>
-            </br>
-            </br>
-            </br>
-          </br>
-        </br>
-        </br>
-        </br>
-        </br>
-        </br>
-        </br>
-        </br>
-      </br>
-    </br>
-    </br>
-    </br>
-    </br>
-    </br>
-    </br>
-    </br>
-    </br>
-    </br>
-    </br>
-    </br>
-    </br>
-    </br>
-    </br>
-    </br>
-  </br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
+          </div>
         </div> 
         
         
-      </br>
-      </br>
-      </br>
-      </br>
-      </br>     
+        <section class="about-section" >
           <div class="container" id="about">
             <h1 style="font-size: 60px;font-weight: lighter;">About Central Park</h1>
             <p style="font-size: 20px;font-weight: lighter;">Accoring to Wikipedia, Central Park is an urban park in New York City located between the Upper West and Upper East Sides of Manhattan. It is the fifth-largest park in the city by area, covering 843 acres (341 ha). It is the most visited urban park in the United States, with an estimated 42 million visitors annually as of 2016, and is the most filmed location in the world.
@@ -113,139 +73,65 @@
               
               Its size and cultural position make it a model for the world's urban parks. Its influence earned Central Park the designations of National Historic Landmark in 1963 and of New York City scenic landmark in 1974. Central Park is owned by the New York City Department of Parks and Recreation but has been managed by the Central Park Conservancy since 1998, under a contract with the municipal government in a public–private partnership. The Conservancy, a non-profit organization, raises Central Park's annual operating budget and is responsible for all basic care of the park.</p>
           </div>
-        </br>
-
-      </br>
-    </br>
-    </br>
-    </br>
-      </br>
-      </br>
-      </br>
-      </br>
-      </br>
-      </br>
-      </br>
-      </br>
-      </br>
-      </br>
-    </br>
-    </br>
-    </br>
-    </br>
-    </br>
-    </br>
-    </br>
-    </br>
-    </br>
-    </br>
-    </br>
-    </br>
-    </br>
-    </br>
-    </br>
-    </br>
-    </br>
-    </br>
-    </br>
-    </br>
-    </br>
-    </br>
-    </br>
-    </br>
-    </br>
-    </br>
-    </br>
-    </br>
-    </br>
-    </br>
+        </section>
     
 
-
-    <div class="container">
-      <h1 id="gallery" style="font-size: 60px;font-weight: lighter;">Gallery</h1>
-      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-        <ol class="carousel-indicators">
-          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
-    
-        </ol>
-        <div class="carousel-inner" style="padding-top: 50px;">
-          <div class="carousel-item active">
-            <img class="d-block w-100" src="static/images/juan-di-nella-ne1X1c9M0Hg-unsplash.jpg" alt="First slide">
-          </div>
-          <div class="carousel-item">
-            <img class="d-block w-100" src="static/images/andrea-belussi--cTrOFIF12Q-unsplash.jpg" alt="Second slide">
-          </div>
-          <div class="carousel-item">
-            <img class="d-block w-100" src="static/images/harry-gillen-vMLfRVkWItI-unsplash.jpg" alt="Third slide">
-          </div>
-          <div class="carousel-item">
-            <img class="d-block w-100" src="static/images/jermaine-ee-A2CChTZvzTE-unsplash.jpg" alt="Fourth slide">
-          </div>
-          <div class="carousel-item">
-            <img class="d-block w-100" src="static/images/patrick-t-kindt-vLIFbcDo36w-unsplash.jpg" alt="Fifth slide">
-          </div>
+        <section style="padding-top: 1000px;">
+          <div class="container">
+            <h1 id="gallery" style="font-size: 60px;font-weight: lighter;">Gallery</h1>
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+              <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
           
-      
+              </ol>
+              <div class="carousel-inner" style="padding-top: 50px;">
+                <div class="carousel-item active">
+                  <img class="d-block w-100" src="static/images/juan-di-nella-ne1X1c9M0Hg-unsplash.jpg" alt="First slide">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100" src="static/images/andrea-belussi--cTrOFIF12Q-unsplash.jpg" alt="Second slide">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100" src="static/images/harry-gillen-vMLfRVkWItI-unsplash.jpg" alt="Third slide">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100" src="static/images/jermaine-ee-A2CChTZvzTE-unsplash.jpg" alt="Fourth slide">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100" src="static/images/patrick-t-kindt-vLIFbcDo36w-unsplash.jpg" alt="Fifth slide">
+                </div>
+                
+            
+              </div>
+              <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev" style="color: azure;">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next" style="color: azure;">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+              </a>
+            </div>
+        </section>
+
+      <section style="padding-top: 1000px;">
+        <div class="container">
+          <h1 id="map" style="font-size: 60px;font-weight: lighter;">Map</h1>
+          
+          <div id="map-container-google-1" class="z-depth-1-half map-container" style="height: 1150px;">
+            <iframe  style="height: 700px;width:600px;padding-top: 100px;" src="https://maps.google.com/maps?q=central-park&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0"
+              style="border:0" allowfullscreen></iframe>
+          </div>
+
+
         </div>
-        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev" style="color: azure;">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="sr-only">Previous</span>
-        </a>
-        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next" style="color: azure;">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="sr-only">Next</span>
-        </a>
-      </div>
+      </section>
 
-    </div>
-    </br>
-    </br>
-    </br>
-    </br>
-    </br>
-    </br>
-    </br>
-    </br>
-    </br>
-    </br>
-    </br>
-    </br>
-    </br>
-    </br>
-    </br>
-    </br>
-    </br>
-    </br>
-    </br>
-    </br>
-    </br>
-    </br>
-    </br>
-    </br>
-    </br>
-    </br>
-    </br>
-    </br>
-    <div class="container">
-      <h1 id="map" style="font-size: 60px;font-weight: lighter;">Map</h1>
-      
-
-      <!--Google map-->
-      <div id="map-container-google-1" class="z-depth-1-half map-container" style="height: 1150px;">
-        <iframe  style="height: 700px;width:900px;padding-top: 100px;" src="https://maps.google.com/maps?q=central-park&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0"
-          style="border:0" allowfullscreen></iframe>
-      </div>
-
-<!--Google Maps-->
-    </div>
- 
-
-    </div>
+        </div>
 
     
   
